@@ -55,7 +55,9 @@ const AdmissionForm = () => {
   };
 
   return (
+    
     <form onSubmit={handleSubmit} className="dis">
+        
       <label className="dis">
         Name:
         <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
