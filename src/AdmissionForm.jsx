@@ -21,7 +21,7 @@ const AdmissionForm = () => {
       return;
     }
 
-    // Prepare data for API call
+  
 
     const data = {
       name,

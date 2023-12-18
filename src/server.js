@@ -23,9 +23,6 @@ app.post("/api/enroll", async (req, res) => {
 
   // Store data in database
 
-  // In a real application, you would use a database connection pool and perform the
-  // database operations using prepared statements to prevent SQL injection attacks.
-
   const db = {
     users: [],
   };
